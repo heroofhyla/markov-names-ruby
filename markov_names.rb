@@ -1,4 +1,4 @@
-require './first_names.rb'
+require './female_first_names.rb'
  
 markov_name = ""
 ARGV[0].to_i.times do
@@ -18,5 +18,6 @@ ARGV[0].to_i.times do
       markov_name << next_char
     end
   end
-  puts "#{markov_name}, #{markov_name.length}"
+  #puts "#{markov_name}, #{markov_name.length}"
+  puts "#{markov_name}"
 end
